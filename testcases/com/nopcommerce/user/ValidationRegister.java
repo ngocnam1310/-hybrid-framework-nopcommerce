@@ -39,47 +39,47 @@ public class ValidationRegister extends BaseTest {
 	@Test
 	public void Register_01_Empty_Data() {
 		
-		System.out.println("Register_01 - Step 01 - Click to Register Link");
+		log.info("Register_01 - Step 01 - Click to Register Link");
 		homePage.clickToRegisterLink();
 		
-		System.out.println("Register_01 - Step 02 - Click to Register Button");
+		log.info("Register_01 - Step 02 - Click to Register Button");
 		registerPage.clickToRegisterButton();
 
-		System.out.println("Register_01 - Step 03 - Verify error message displayed");
-		Assert.assertEquals(registerPage.getErrorMessageAtFirstnameTextbox(),"First name is required.");
-		Assert.assertEquals(registerPage.getErrorMessageAtLastnameTextbox(),"Last name is required.");
-		Assert.assertEquals(registerPage.getErrorMessageAtEmailnameTextbox(),"Email is required.");
-		Assert.assertEquals(registerPage.getErrorMessageAtPasswordTextbox(),"Password is required.");
-		Assert.assertEquals(registerPage.getErrorMessageAtRePasswordTextbox(),"Password is required.");
+		log.info("Register_01 - Step 03 - Verify error message displayed");
+		verifyEquals(registerPage.getErrorMessageAtFirstnameTextbox(),"First name is required.");
+		verifyEquals(registerPage.getErrorMessageAtLastnameTextbox(),"Last name is required.");
+		verifyEquals(registerPage.getErrorMessageAtEmailnameTextbox(),"Email is required.");
+		verifyEquals(registerPage.getErrorMessageAtPasswordTextbox(),"Password is required.");
+		verifyEquals(registerPage.getErrorMessageAtRePasswordTextbox(),"Password is required.");
 
 	}
 
 	@Test
 	public void Register_02_Invalid_Email() {		
-		System.out.println("Register_01 - Step 01 - Click to Register Link");
+		log.info("Register_01 - Step 01 - Click to Register Link");
 		homePage.clickToRegisterLink();
 		
-		System.out.println("Register_01 - Step 02 - Input to required fields");
+		log.info("Register_01 - Step 02 - Input to required fields");
 		registerPage.inputToFirstnameTextbox(firstName);
 		registerPage.inputToLastnameTextbox(lastName);
 		registerPage.inputToEmailnameTextbox("123.123.123");
 		registerPage.inputToPasswordnameTextbox(password);
 		registerPage.inputToConfirmPasswordnameTextbox(password);
 		
-		System.out.println("Register_01 - Step 03 - Click to Register Button");
+		log.info("Register_01 - Step 03 - Click to Register Button");
 		registerPage.clickToRegisterButton();
 		
-		System.out.println("RRegister_01 - Step 04- Verify errror message displayed");
+		log.info("RRegister_01 - Step 04- Verify errror message displayed");
 		Assert.assertEquals(registerPage.getErrorMessageAtEmailnameTextbox(),"Wrong email");
 
 	}
 
 	@Test
 	public void Register_03_Success() {
-		System.out.println("Register_01 - Step 01 - Click to Register Link");
+		log.info("Register_01 - Step 01 - Click to Register Link");
 		homePage.clickToRegisterLink();
 		
-		System.out.println("Register_01 - Step 02 - Input to required fields");
+		log.info("Register_01 - Step 02 - Input to required fields");
 		registerPage.inputToFirstnameTextbox(firstName);
 		registerPage.inputToLastnameTextbox(lastName);
 		registerPage.inputToEmailnameTextbox(emailAddress);
@@ -87,39 +87,39 @@ public class ValidationRegister extends BaseTest {
 		registerPage.inputToConfirmPasswordnameTextbox(password);
 		
 
-		System.out.println("Register_01 - Step 03- Click to Register Button");
+		log.info("Register_01 - Step 03- Click to Register Button");
 		registerPage.clickToRegisterButton();
 		
-		System.out.println("Register Page - Verify Register Success");
-		Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
+		log.info("Register Page - Verify Register Success");
+		verifyEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
 
-		System.out.println("Register Page - Click to LogOut Link");
+		log.info("Register Page - Click to LogOut Link");
 		registerPage.clickToLogoutLink();
 	}
 
 	@Test
 	public void Register_04_Existing_Email() {
-		System.out.println("Home Page - Click to Register Link");
+		log.info("Home Page - Click to Register Link");
 		homePage.clickToRegisterLink();
 
-		System.out.println("Register Page - Input to required fields");
+		log.info("Register Page - Input to required fields");
 		registerPage.inputToFirstnameTextbox(firstName);
 		registerPage.inputToLastnameTextbox(lastName);
 		registerPage.inputToEmailnameTextbox(emailAddress);
 		registerPage.inputToPasswordnameTextbox(password);
 		registerPage.inputToConfirmPasswordnameTextbox(password);
 
-		System.out.println("Register Page - Click to Register Button");
+		log.info("Register Page - Click to Register Button");
 		registerPage.clickToRegisterButton();
 
-		System.out.println("Register Page - Verify message error");
-		Assert.assertEquals(registerPage.getErrorExistingEmailMessage(),
+		log.info("Register Page - Verify message error");
+		verifyEquals(registerPage.getErrorExistingEmailMessage(),
 				"The specified email already exists");
 	}
 
 	@Test
 	public void Register_05_Pass_Less_Than_6_Chars() {
-		System.out.println("Home Page - Click to Register Link");
+		log.info("Home Page - Click to Register Link");
 		homePage.clickToRegisterLink();
 
 		registerPage.inputToFirstnameTextbox(firstName);
@@ -128,17 +128,17 @@ public class ValidationRegister extends BaseTest {
 		registerPage.inputToPasswordnameTextbox("123");
 		registerPage.inputToConfirmPasswordnameTextbox("123");
 
-		System.out.println("Register Page - Click to Register Button");
+		log.info("Register Page - Click to Register Button");
 		registerPage.clickToRegisterButton();
 
-		System.out.println("Register Page - Verify message error");
-		Assert.assertEquals(registerPage.getErrorMessageAtPasswordTextbox(),
+		log.info("Register Page - Verify message error");
+		verifyEquals(registerPage.getErrorMessageAtPasswordTextbox(),
 				"Password must meet the following rules:\nmust have at least 6 characters");
 	}
 
 	@Test
 	public void Register_06_Invalid_Confirm_Password() {
-		System.out.println("Home Page - Click to Register Link");
+		log.info("Home Page - Click to Register Link");
 		homePage.clickToRegisterLink();
 
 		registerPage.inputToFirstnameTextbox(firstName);
@@ -147,11 +147,11 @@ public class ValidationRegister extends BaseTest {
 		registerPage.inputToPasswordnameTextbox(password);
 		registerPage.inputToConfirmPasswordnameTextbox("123654");
 
-		System.out.println("Register Page - Click to Register Button");
+		log.info("Register Page - Click to Register Button");
 		registerPage.clickToRegisterButton();
 		
-		System.out.println("Register Page - Verify message error");
-		Assert.assertEquals(registerPage.getErrorMessageAtRePasswordTextbox(),
+		log.info("Register Page - Verify message error");
+		verifyEquals(registerPage.getErrorMessageAtRePasswordTextbox(),
 				"The password and confirmation password do not match.");
 	}
 

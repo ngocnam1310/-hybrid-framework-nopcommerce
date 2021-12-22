@@ -9,4 +9,5 @@ public class BasePageUI {
 	public static final String LOGOUT_LINK_USER = "xpath=//a[@class ='ico-logout']";
 	public static final String LOGOUT_LINK_ADMIN ="xpath=//a[text()='Logout']";
 	public static final String DYNAMIC_TEXTBOX_BY_ID ="xpath=//input[@id='%s']";
+	public static final String DYNAMIC_ERROR_MESSAGE_BY_ID ="xpath=//span[@id='%s']";
 }

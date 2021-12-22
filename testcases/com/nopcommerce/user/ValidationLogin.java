@@ -22,15 +22,11 @@ public class ValidationLogin extends BaseTest{
 		driver = getBrowserDriver(browserName);
 
 		homePage = PageGeneratorManager.getUserHomePage(driver);
-		existingEmail = "afc" + generateFakeNumber() + "@mail.vn";
+		existingEmail = "automation" + generateFakeNumber() + "@mail.vn";
 		firstName = "Auto";
 		lastName = "Mation";
 		validPassword = "123456";
-
-	}
-
-	@Test
-	public void User_01_Register() {
+		
 		log.info("User_01_Register - Step 01 - Click to Register Link");
 		registerPage = homePage.clickToRegisterLink();
 		
@@ -57,17 +53,64 @@ public class ValidationLogin extends BaseTest{
 
 		log.info("User_01_Register - Step 09- Click to LogOut Link");
 		homePage = registerPage.clickToLogoutLink();
-
 	}
 
 	@Test
-	public void User_02_Login() {	
-		log.info("User_01_Login - Step 01 - Login Link");
+	public void User_01_Login_With_Empty_Data() {
+		log.info("User_01_Login- Login Link");
 		loginPage = homePage.clickToLoginLink();
 		
-		log.info("User_01_Login - Step 02 - Click to Login Link");
-		loginPage = new UserLoginPageObject(driver);
+		log.info("User_01_Login with empty value");
+		loginPage.inptoTextBoxByID(driver,"Email","");
+		loginPage.clickToLoginButton();
 		
+		log.info("User_01_Login Verify error message");
+		verifyEquals(loginPage.getErrorMessageByID(driver, "Email-error"),"Please enter your email");
+	}
+	@Test
+	public void User_02_Login_With_Invalid_Email() {
+		log.info("User_01_Login with empty value");
+		loginPage.inptoTextBoxByID(driver, "Email", "123123");
+		loginPage.clickToLoginButton();
+		
+		log.info("User_01_Login Verify error message");
+		verifyEquals(loginPage.getErrorMessageByID(driver, "Email-error"),"Wrong email");
+	}
+	@Test
+	public void User_03_Login_With_Email_NotExist() {
+		log.info("User_01_Login with empty value");
+		loginPage.inptoTextBoxByID(driver, "Email", "automation@mail.com");
+		loginPage.clickToLoginButton();
+		
+		log.info("User_01_Login Verify error message");
+		verifyEquals(loginPage.getErrorMessageUnSuccessful(),
+				"Login was unsuccessful. Please correct the errors and try again.\nNo customer account found");
+	}
+	@Test
+	public void User_04_Login_With_Email_Exist_But_Password_Invalid() {
+		log.info("User_01_Login with empty value");
+		loginPage.inptoTextBoxByID(driver, "Email",existingEmail);
+		loginPage.inptoTextBoxByID(driver, "Password", "123321");
+		loginPage.clickToLoginButton();
+		
+		log.info("User_01_Login Verify error message");
+		verifyEquals(loginPage.getErrorMessageUnSuccessful(),
+				"Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect");
+	}
+	@Test
+	public void User_05_Login_With_Email_Exist_But_Password_isEmpty() {
+		log.info("User_01_Login with empty value");
+		loginPage.inptoTextBoxByID(driver, "Email",existingEmail);
+		loginPage.inptoTextBoxByID(driver, "Password", " ");
+		loginPage.clickToLoginButton();
+		
+		log.info("User_01_Login Verify error message");
+		verifyEquals(loginPage.getErrorMessageUnSuccessful(),
+				"Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect");
+	}
+
+	@Test
+	public void User_05_Login_With_Valid_Email_Password() {	
 		log.info("User_01_Login - Step 03 - Input to Email");
 		loginPage.inputToEmailTextbox(existingEmail);
 		
@@ -76,14 +119,9 @@ public class ValidationLogin extends BaseTest{
 		
 		log.info("User_01_Login - Step 05 - Click to Login Link");
 		homePage = loginPage.clickToLoginButton();
-		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
+		verifyTrue(homePage.isMyAccountLinkDisplayed());
 	}
 
-	@Test
-	public void User_03_My_Account() {
-		myAccount = homePage.clickToMyAccountLink();
-		Assert.assertTrue(myAccount.isMyAccountPageDisplay());
-	}
 
 
 	@Parameters("browser")

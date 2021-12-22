@@ -135,3 +135,214 @@
 [INFO ] [2021-12-15 14:32:26,010] Post-Condition: Close browser
 [INFO ] [2021-12-15 14:32:26,010] OS name = windows 10
 [INFO ] [2021-12-15 14:32:26,010] Driver instance name = windows 10
+[INFO ] [2021-12-22 14:48:38,300] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-22 14:48:47,060] User_01_Register - Step 01 - Click to Register Link
+[INFO ] [2021-12-22 14:48:47,751] User_01_Register - Step 02 - Input to Firstname textboxAuto
+[INFO ] [2021-12-22 14:48:47,837] User_01_Register - Step 03 - Input to Lastname textboxMation
+[INFO ] [2021-12-22 14:48:47,930] User_01_Register - Step 04 - Input to Emailautomation7520@mail.vn
+[INFO ] [2021-12-22 14:48:48,047] User_01_Register - Step 05 - Input to Password123456
+[INFO ] [2021-12-22 14:48:48,130] User_01_Register - Step 06 - Input to Confirm Password123456
+[INFO ] [2021-12-22 14:48:48,220] User_01_Register - Step 07- Click to Register Button
+[INFO ] [2021-12-22 14:48:50,616] User_01_Register - Step 08- Verify Register Success
+[INFO ] [2021-12-22 14:48:50,673]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-22 14:48:50,674] User_01_Register - Step 09- Click to LogOut Link
+[INFO ] [2021-12-22 14:48:53,091] User_01_Login with empty value
+[INFO ] [2021-12-22 14:49:33,865] User_01_Login with empty value
+[INFO ] [2021-12-22 14:50:14,697] User_01_Login with empty value
+[INFO ] [2021-12-22 14:51:36,268] User_01_Login with empty value
+[INFO ] [2021-12-22 14:52:12,084] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-22 14:52:16,993] User_01_Login with empty value
+[INFO ] [2021-12-22 14:52:19,004] User_01_Register - Step 01 - Click to Register Link
+[INFO ] [2021-12-22 14:52:20,597] User_01_Register - Step 02 - Input to Firstname textboxAuto
+[INFO ] [2021-12-22 14:52:20,695] User_01_Register - Step 03 - Input to Lastname textboxMation
+[INFO ] [2021-12-22 14:52:20,822] User_01_Register - Step 04 - Input to Emailautomation5454@mail.vn
+[INFO ] [2021-12-22 14:52:20,956] User_01_Register - Step 05 - Input to Password123456
+[INFO ] [2021-12-22 14:52:21,038] User_01_Register - Step 06 - Input to Confirm Password123456
+[INFO ] [2021-12-22 14:52:21,215] User_01_Register - Step 07- Click to Register Button
+[INFO ] [2021-12-22 14:52:23,568] User_01_Register - Step 08- Verify Register Success
+[INFO ] [2021-12-22 14:52:23,790]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-22 14:52:23,797] User_01_Register - Step 09- Click to LogOut Link
+[INFO ] [2021-12-22 14:52:26,353] User_01_Login- Login Link
+[INFO ] [2021-12-22 14:52:27,028] User_01_Login with empty value
+[INFO ] [2021-12-22 14:55:15,655] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-22 14:55:22,444] User_01_Register - Step 01 - Click to Register Link
+[INFO ] [2021-12-22 14:55:23,949] User_01_Register - Step 02 - Input to Firstname textboxAuto
+[INFO ] [2021-12-22 14:55:24,037] User_01_Register - Step 03 - Input to Lastname textboxMation
+[INFO ] [2021-12-22 14:55:24,126] User_01_Register - Step 04 - Input to Emailautomation8304@mail.vn
+[INFO ] [2021-12-22 14:55:24,238] User_01_Register - Step 05 - Input to Password123456
+[INFO ] [2021-12-22 14:55:24,322] User_01_Register - Step 06 - Input to Confirm Password123456
+[INFO ] [2021-12-22 14:55:24,400] User_01_Register - Step 07- Click to Register Button
+[INFO ] [2021-12-22 14:55:25,990] User_01_Register - Step 08- Verify Register Success
+[INFO ] [2021-12-22 14:55:26,051]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-22 14:55:26,053] User_01_Register - Step 09- Click to LogOut Link
+[INFO ] [2021-12-22 14:55:28,452] User_01_Login- Login Link
+[INFO ] [2021-12-22 14:55:28,941] User_01_Login with empty value
+[INFO ] [2021-12-22 14:58:40,794] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-22 14:58:47,421] User_01_Register - Step 01 - Click to Register Link
+[INFO ] [2021-12-22 14:58:49,042] User_01_Register - Step 02 - Input to Firstname textboxAuto
+[INFO ] [2021-12-22 14:58:49,153] User_01_Register - Step 03 - Input to Lastname textboxMation
+[INFO ] [2021-12-22 14:58:49,257] User_01_Register - Step 04 - Input to Emailautomation8580@mail.vn
+[INFO ] [2021-12-22 14:58:49,399] User_01_Register - Step 05 - Input to Password123456
+[INFO ] [2021-12-22 14:58:49,483] User_01_Register - Step 06 - Input to Confirm Password123456
+[INFO ] [2021-12-22 14:58:49,596] User_01_Register - Step 07- Click to Register Button
+[INFO ] [2021-12-22 14:58:50,457] User_01_Register - Step 08- Verify Register Success
+[INFO ] [2021-12-22 14:58:50,523]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-22 14:58:50,524] User_01_Register - Step 09- Click to LogOut Link
+[INFO ] [2021-12-22 14:58:53,016] User_01_Login- Login Link
+[INFO ] [2021-12-22 14:58:54,382] User_01_Login with empty value
+[INFO ] [2021-12-22 15:01:50,872] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-22 15:01:57,863] User_01_Register - Step 01 - Click to Register Link
+[INFO ] [2021-12-22 15:01:59,410] User_01_Register - Step 02 - Input to Firstname textboxAuto
+[INFO ] [2021-12-22 15:01:59,517] User_01_Register - Step 03 - Input to Lastname textboxMation
+[INFO ] [2021-12-22 15:01:59,646] User_01_Register - Step 04 - Input to Emailautomation1322@mail.vn
+[INFO ] [2021-12-22 15:01:59,778] User_01_Register - Step 05 - Input to Password123456
+[INFO ] [2021-12-22 15:01:59,865] User_01_Register - Step 06 - Input to Confirm Password123456
+[INFO ] [2021-12-22 15:01:59,956] User_01_Register - Step 07- Click to Register Button
+[INFO ] [2021-12-22 15:02:01,498] User_01_Register - Step 08- Verify Register Success
+[INFO ] [2021-12-22 15:02:01,560]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-22 15:02:01,561] User_01_Register - Step 09- Click to LogOut Link
+[INFO ] [2021-12-22 15:02:03,264] User_01_Login- Login Link
+[INFO ] [2021-12-22 15:02:03,774] User_01_Login with empty value
+[INFO ] [2021-12-22 15:03:40,621] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-22 15:03:47,114] User_01_Register - Step 01 - Click to Register Link
+[INFO ] [2021-12-22 15:03:48,642] User_01_Register - Step 02 - Input to Firstname textboxAuto
+[INFO ] [2021-12-22 15:03:48,737] User_01_Register - Step 03 - Input to Lastname textboxMation
+[INFO ] [2021-12-22 15:03:48,830] User_01_Register - Step 04 - Input to Emailautomation46@mail.vn
+[INFO ] [2021-12-22 15:03:48,951] User_01_Register - Step 05 - Input to Password123456
+[INFO ] [2021-12-22 15:03:49,029] User_01_Register - Step 06 - Input to Confirm Password123456
+[INFO ] [2021-12-22 15:03:49,109] User_01_Register - Step 07- Click to Register Button
+[INFO ] [2021-12-22 15:03:51,547] User_01_Register - Step 08- Verify Register Success
+[INFO ] [2021-12-22 15:03:51,596]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-22 15:03:51,598] User_01_Register - Step 09- Click to LogOut Link
+[INFO ] [2021-12-22 15:03:53,309] User_01_Login- Login Link
+[INFO ] [2021-12-22 15:03:53,826] User_01_Login with empty value
+[INFO ] [2021-12-22 15:05:06,404] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-22 15:05:12,498] User_01_Register - Step 01 - Click to Register Link
+[INFO ] [2021-12-22 15:05:14,061] User_01_Register - Step 02 - Input to Firstname textboxAuto
+[INFO ] [2021-12-22 15:05:14,189] User_01_Register - Step 03 - Input to Lastname textboxMation
+[INFO ] [2021-12-22 15:05:14,276] User_01_Register - Step 04 - Input to Emailautomation4056@mail.vn
+[INFO ] [2021-12-22 15:05:14,397] User_01_Register - Step 05 - Input to Password123456
+[INFO ] [2021-12-22 15:05:14,476] User_01_Register - Step 06 - Input to Confirm Password123456
+[INFO ] [2021-12-22 15:05:14,560] User_01_Register - Step 07- Click to Register Button
+[INFO ] [2021-12-22 15:05:16,771] User_01_Register - Step 08- Verify Register Success
+[INFO ] [2021-12-22 15:05:16,828]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-22 15:05:16,828] User_01_Register - Step 09- Click to LogOut Link
+[INFO ] [2021-12-22 15:05:19,227] User_01_Login- Login Link
+[INFO ] [2021-12-22 15:05:19,735] User_01_Login with empty value
+[INFO ] [2021-12-22 15:06:50,568] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-22 15:06:56,624] User_01_Register - Step 01 - Click to Register Link
+[INFO ] [2021-12-22 15:06:57,293] User_01_Register - Step 02 - Input to Firstname textboxAuto
+[INFO ] [2021-12-22 15:06:57,391] User_01_Register - Step 03 - Input to Lastname textboxMation
+[INFO ] [2021-12-22 15:06:57,482] User_01_Register - Step 04 - Input to Emailautomation3942@mail.vn
+[INFO ] [2021-12-22 15:06:57,599] User_01_Register - Step 05 - Input to Password123456
+[INFO ] [2021-12-22 15:06:57,681] User_01_Register - Step 06 - Input to Confirm Password123456
+[INFO ] [2021-12-22 15:06:57,760] User_01_Register - Step 07- Click to Register Button
+[INFO ] [2021-12-22 15:06:58,610] User_01_Register - Step 08- Verify Register Success
+[INFO ] [2021-12-22 15:06:58,669]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-22 15:06:58,671] User_01_Register - Step 09- Click to LogOut Link
+[INFO ] [2021-12-22 15:07:00,229] User_01_Login- Login Link
+[INFO ] [2021-12-22 15:07:01,485] User_01_Login with empty value
+[INFO ] [2021-12-22 15:07:01,903] User_01_Login Verify error message
+[INFO ] [2021-12-22 15:08:15,773] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-22 15:08:21,932] User_01_Register - Step 01 - Click to Register Link
+[INFO ] [2021-12-22 15:08:23,473] User_01_Register - Step 02 - Input to Firstname textboxAuto
+[INFO ] [2021-12-22 15:08:23,561] User_01_Register - Step 03 - Input to Lastname textboxMation
+[INFO ] [2021-12-22 15:08:23,656] User_01_Register - Step 04 - Input to Emailautomation9587@mail.vn
+[INFO ] [2021-12-22 15:08:23,776] User_01_Register - Step 05 - Input to Password123456
+[INFO ] [2021-12-22 15:08:23,856] User_01_Register - Step 06 - Input to Confirm Password123456
+[INFO ] [2021-12-22 15:08:23,937] User_01_Register - Step 07- Click to Register Button
+[INFO ] [2021-12-22 15:08:25,477] User_01_Register - Step 08- Verify Register Success
+[INFO ] [2021-12-22 15:08:25,541]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-22 15:08:25,542] User_01_Register - Step 09- Click to LogOut Link
+[INFO ] [2021-12-22 15:08:27,304] User_01_Login- Login Link
+[INFO ] [2021-12-22 15:08:28,538] User_01_Login with empty value
+[INFO ] [2021-12-22 15:08:28,955] User_01_Login Verify error message
+[INFO ] [2021-12-22 15:09:09,662] User_01_Login with empty value
+[INFO ] [2021-12-22 15:09:10,078] User_01_Login Verify error message
+[INFO ] [2021-12-22 15:09:50,722] User_01_Login with empty value
+[INFO ] [2021-12-22 15:09:52,160] User_01_Login Verify error message
+[INFO ] [2021-12-22 15:09:52,226]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-22 15:10:32,869] User_01_Login with empty value
+[INFO ] [2021-12-22 15:10:34,318] User_01_Login Verify error message
+[INFO ] [2021-12-22 15:10:34,409]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-22 15:10:34,411] User_01_Login with empty value
+[INFO ] [2021-12-22 15:10:35,813] User_01_Login Verify error message
+[INFO ] [2021-12-22 15:10:35,867]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-22 15:10:35,869] User_01_Login - Step 03 - Input to Email
+[INFO ] [2021-12-22 15:10:35,946] User_01_Login - Step 04 - Click to Password
+[INFO ] [2021-12-22 15:10:36,022] User_01_Login - Step 05 - Click to Login Link
+[INFO ] [2021-12-22 15:10:52,433] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-22 15:11:01,339] User_01_Register - Step 01 - Click to Register Link
+[INFO ] [2021-12-22 15:11:02,862] User_01_Register - Step 02 - Input to Firstname textboxAuto
+[INFO ] [2021-12-22 15:11:02,955] User_01_Register - Step 03 - Input to Lastname textboxMation
+[INFO ] [2021-12-22 15:11:03,048] User_01_Register - Step 04 - Input to Emailautomation5477@mail.vn
+[INFO ] [2021-12-22 15:11:03,176] User_01_Register - Step 05 - Input to Password123456
+[INFO ] [2021-12-22 15:11:03,312] User_01_Register - Step 06 - Input to Confirm Password123456
+[INFO ] [2021-12-22 15:11:03,395] User_01_Register - Step 07- Click to Register Button
+[INFO ] [2021-12-22 15:11:05,011] User_01_Register - Step 08- Verify Register Success
+[INFO ] [2021-12-22 15:11:05,080]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-22 15:11:05,082] User_01_Register - Step 09- Click to LogOut Link
+[INFO ] [2021-12-22 15:11:06,662] User_01_Login- Login Link
+[INFO ] [2021-12-22 15:11:07,860] User_01_Login with empty value
+[INFO ] [2021-12-22 15:11:08,250] User_01_Login Verify error message
+[INFO ] [2021-12-22 15:11:08,335]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-22 15:11:08,338] User_01_Login with empty value
+[INFO ] [2021-12-22 15:11:08,719] User_01_Login Verify error message
+[INFO ] [2021-12-22 15:11:08,784]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-22 15:11:08,879] User_01_Login with empty value
+[INFO ] [2021-12-22 15:11:09,512] User_01_Login Verify error message
+[INFO ] [2021-12-22 15:11:09,570]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-22 15:11:09,572] User_01_Login with empty value
+[INFO ] [2021-12-22 15:11:10,310] User_01_Login Verify error message
+[INFO ] [2021-12-22 15:11:10,368]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-22 15:11:10,453] User_01_Login with empty value
+[INFO ] [2021-12-22 15:11:11,844] User_01_Login Verify error message
+[INFO ] [2021-12-22 15:11:11,896]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-22 15:11:11,980] User_01_Login - Step 03 - Input to Email
+[INFO ] [2021-12-22 15:11:12,079] User_01_Login - Step 04 - Click to Password
+[INFO ] [2021-12-22 15:11:12,175] User_01_Login - Step 05 - Click to Login Link
+[INFO ] [2021-12-22 15:11:13,192]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-22 15:11:13,193] Post-Condition: Close browser
+[INFO ] [2021-12-22 15:11:13,193] OS name = windows 10
+[INFO ] [2021-12-22 15:11:13,193] Driver instance name = windows 10
+[INFO ] [2021-12-22 15:11:26,664] Post-Condition: Close browser
+[INFO ] [2021-12-22 15:11:26,664] OS name = windows 10
+[INFO ] [2021-12-22 15:11:26,665] Driver instance name = windows 10
+[INFO ] [2021-12-22 15:11:30,768] java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:7245
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'G07VNXDFVLTTI25', ip: '10.164.178.150', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: driver.version: RemoteWebDriver
+[INFO ] [2021-12-22 15:12:32,453] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-22 15:12:38,997] User_01_Register - Step 01 - Click to Register Link
+[INFO ] [2021-12-22 15:12:39,691] User_01_Register - Step 02 - Input to Firstname textboxAuto
+[INFO ] [2021-12-22 15:12:39,810] User_01_Register - Step 03 - Input to Lastname textboxMation
+[INFO ] [2021-12-22 15:12:39,904] User_01_Register - Step 04 - Input to Emailautomation9670@mail.vn
+[INFO ] [2021-12-22 15:12:40,017] User_01_Register - Step 05 - Input to Password123456
+[INFO ] [2021-12-22 15:12:40,136] User_01_Register - Step 06 - Input to Confirm Password123456
+[INFO ] [2021-12-22 15:12:40,225] User_01_Register - Step 07- Click to Register Button
+[INFO ] [2021-12-22 15:12:42,528] User_01_Register - Step 08- Verify Register Success
+[INFO ] [2021-12-22 15:12:42,580]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-22 15:12:42,582] User_01_Register - Step 09- Click to LogOut Link
+[INFO ] [2021-12-22 15:12:45,033] User_01_Login- Login Link
+[INFO ] [2021-12-22 15:12:46,327] User_01_Login with empty value
+[INFO ] [2021-12-22 15:12:46,752] User_01_Login Verify error message
+[INFO ] [2021-12-22 15:12:46,805]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-22 15:12:46,808] User_01_Login with empty value
+[INFO ] [2021-12-22 15:12:47,170] User_01_Login Verify error message
+[INFO ] [2021-12-22 15:12:47,223]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-22 15:12:47,224] User_01_Login with empty value
+[INFO ] [2021-12-22 15:12:48,524] User_01_Login Verify error message
+[INFO ] [2021-12-22 15:12:48,601]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-22 15:12:48,602] User_01_Login with empty value
+[INFO ] [2021-12-22 15:12:49,379] User_01_Login Verify error message
+[INFO ] [2021-12-22 15:12:49,434]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-22 15:12:49,436] User_01_Login with empty value
+[INFO ] [2021-12-22 15:12:50,862] User_01_Login Verify error message
+[INFO ] [2021-12-22 15:12:50,927]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-22 15:12:50,929] User_01_Login - Step 03 - Input to Email
+[INFO ] [2021-12-22 15:12:51,029] User_01_Login - Step 04 - Click to Password
+[INFO ] [2021-12-22 15:12:51,115] User_01_Login - Step 05 - Click to Login Link
+[INFO ] [2021-12-22 15:12:52,059]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-22 15:12:52,060] Post-Condition: Close browser
+[INFO ] [2021-12-22 15:12:52,061] OS name = windows 10
+[INFO ] [2021-12-22 15:12:52,061] Driver instance name = windows 10

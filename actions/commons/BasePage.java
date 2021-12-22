@@ -13,7 +13,6 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -584,10 +583,14 @@ public class BasePage {
 		return isElementDisplayed(driver, AdminBasePageUI.NO_DATA_MESSAGE_BY_NAME_TABLE,tableName);
 	}
 	
-	public void inptoTextBoxByID(WebDriver driver,String textBoxID, String firstName) {
-		waitForElementVisible(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, firstName);
-		sendKeyToElement(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, firstName, textBoxID);
-		
+	public void inptoTextBoxByID(WebDriver driver,String textBoxID, String value) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID,textBoxID);
+		sendKeyToElement(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, value, textBoxID);	
+	}
+	public String getErrorMessageByID(WebDriver driver,String fieldID) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_ERROR_MESSAGE_BY_ID,fieldID);
+		return getElementText(driver, BasePageUI.DYNAMIC_ERROR_MESSAGE_BY_ID, fieldID);
+
 	}
 
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;

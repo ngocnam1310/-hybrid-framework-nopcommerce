@@ -1,7 +1,34 @@
-[INFO ] [2021-12-15 14:32:06,854] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
-[INFO ] [2021-12-15 14:32:12,526] User_01_Login - Step 01 - Login Link
-[INFO ] [2021-12-15 14:32:13,988] User_01_Login - Step 01 - Set login page cookies
-[INFO ] [2021-12-15 14:32:25,917] User_01_Login - Step 01 -Verify home page
-[INFO ] [2021-12-15 14:32:26,010] Post-Condition: Close browser
-[INFO ] [2021-12-15 14:32:26,010] OS name = windows 10
-[INFO ] [2021-12-15 14:32:26,010] Driver instance name = windows 10
+[INFO ] [2021-12-22 15:12:32,453] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-22 15:12:38,997] User_01_Register - Step 01 - Click to Register Link
+[INFO ] [2021-12-22 15:12:39,691] User_01_Register - Step 02 - Input to Firstname textboxAuto
+[INFO ] [2021-12-22 15:12:39,810] User_01_Register - Step 03 - Input to Lastname textboxMation
+[INFO ] [2021-12-22 15:12:39,904] User_01_Register - Step 04 - Input to Emailautomation9670@mail.vn
+[INFO ] [2021-12-22 15:12:40,017] User_01_Register - Step 05 - Input to Password123456
+[INFO ] [2021-12-22 15:12:40,136] User_01_Register - Step 06 - Input to Confirm Password123456
+[INFO ] [2021-12-22 15:12:40,225] User_01_Register - Step 07- Click to Register Button
+[INFO ] [2021-12-22 15:12:42,528] User_01_Register - Step 08- Verify Register Success
+[INFO ] [2021-12-22 15:12:42,580]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-22 15:12:42,582] User_01_Register - Step 09- Click to LogOut Link
+[INFO ] [2021-12-22 15:12:45,033] User_01_Login- Login Link
+[INFO ] [2021-12-22 15:12:46,327] User_01_Login with empty value
+[INFO ] [2021-12-22 15:12:46,752] User_01_Login Verify error message
+[INFO ] [2021-12-22 15:12:46,805]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-22 15:12:46,808] User_01_Login with empty value
+[INFO ] [2021-12-22 15:12:47,170] User_01_Login Verify error message
+[INFO ] [2021-12-22 15:12:47,223]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-22 15:12:47,224] User_01_Login with empty value
+[INFO ] [2021-12-22 15:12:48,524] User_01_Login Verify error message
+[INFO ] [2021-12-22 15:12:48,601]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-22 15:12:48,602] User_01_Login with empty value
+[INFO ] [2021-12-22 15:12:49,379] User_01_Login Verify error message
+[INFO ] [2021-12-22 15:12:49,434]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-22 15:12:49,436] User_01_Login with empty value
+[INFO ] [2021-12-22 15:12:50,862] User_01_Login Verify error message
+[INFO ] [2021-12-22 15:12:50,927]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-22 15:12:50,929] User_01_Login - Step 03 - Input to Email
+[INFO ] [2021-12-22 15:12:51,029] User_01_Login - Step 04 - Click to Password
+[INFO ] [2021-12-22 15:12:51,115] User_01_Login - Step 05 - Click to Login Link
+[INFO ] [2021-12-22 15:12:52,059]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-22 15:12:52,060] Post-Condition: Close browser
+[INFO ] [2021-12-22 15:12:52,061] OS name = windows 10
+[INFO ] [2021-12-22 15:12:52,061] Driver instance name = windows 10
