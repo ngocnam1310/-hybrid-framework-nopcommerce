@@ -1,0 +1,137 @@
+[INFO ] [2021-12-13 21:21:56,652] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-13 21:22:07,389] User_01_Register - Step 01 - Click to Register Link
+[INFO ] [2021-12-13 21:22:09,242] User_01_Register - Step 02 - Input to Firstname textboxAuto
+[INFO ] [2021-12-13 21:22:09,439] User_01_Register - Step 03 - Input to Lastname textboxMation
+[INFO ] [2021-12-13 21:22:09,583] User_01_Register - Step 04 - Input to Emailafc1163@mail.vn
+[INFO ] [2021-12-13 21:22:09,739] User_01_Register - Step 05 - Input to Password123456
+[INFO ] [2021-12-13 21:22:09,863] User_01_Register - Step 06 - Input to Confirm Password123456
+[INFO ] [2021-12-13 21:22:10,011] User_01_Register - Step 07- Click to Register Button
+[INFO ] [2021-12-13 21:22:11,589] User_01_Register - Step 08- Verify Register Success
+[INFO ] [2021-12-13 21:22:11,696] User_01_Register - Step 09- Click to LogOut Link
+[INFO ] [2021-12-13 21:22:14,012] User_01_Login - Step 01 - Login Link
+[INFO ] [2021-12-13 21:22:14,711] User_01_Login - Step 02 - Click to Login Link
+[INFO ] [2021-12-13 21:22:14,711] User_01_Login - Step 03 - Input to Email
+[INFO ] [2021-12-13 21:22:14,868] User_01_Login - Step 04 - Click to Password
+[INFO ] [2021-12-13 21:22:15,033] User_01_Login - Step 05 - Click to Login Link
+[INFO ] [2021-12-13 21:26:12,199] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-13 21:26:21,512] User_01_Register - Step 01 - Click to Register Link
+[INFO ] [2021-12-13 21:26:23,279] User_01_Register - Step 02 - Input to Firstname textboxAuto
+[INFO ] [2021-12-13 21:26:23,455] User_01_Register - Step 03 - Input to Lastname textboxMation
+[INFO ] [2021-12-13 21:26:23,608] User_01_Register - Step 04 - Input to Emailafc2883@mail.vn
+[INFO ] [2021-12-13 21:26:23,770] User_01_Register - Step 05 - Input to Password123456
+[INFO ] [2021-12-13 21:26:23,938] User_01_Register - Step 06 - Input to Confirm Password123456
+[INFO ] [2021-12-13 21:26:24,107] User_01_Register - Step 07- Click to Register Button
+[INFO ] [2021-12-13 21:26:25,853] User_01_Register - Step 08- Verify Register Success
+[INFO ] [2021-12-13 21:26:25,979] User_01_Register - Step 09- Click to LogOut Link
+[INFO ] [2021-12-13 21:26:28,290] User_01_Login - Step 01 - Login Link
+[INFO ] [2021-12-13 21:26:30,277] User_01_Login - Step 02 - Click to Login Link
+[INFO ] [2021-12-13 21:26:30,277] User_01_Login - Step 03 - Input to Email
+[INFO ] [2021-12-13 21:26:30,446] User_01_Login - Step 04 - Click to Password
+[INFO ] [2021-12-13 21:26:30,594] User_01_Login - Step 05 - Click to Login Link
+[INFO ] [2021-12-13 21:43:42,226] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-13 21:43:52,690] User_01_Register - Step 01 - Click to Register Link
+[INFO ] [2021-12-13 21:43:54,615] User_01_Register - Step 02 - Input to Firstname textboxAuto
+[INFO ] [2021-12-13 21:43:54,820] User_01_Register - Step 03 - Input to Lastname textboxMation
+[INFO ] [2021-12-13 21:43:54,989] User_01_Register - Step 04 - Input to Emailafc7554@mail.vn
+[INFO ] [2021-12-13 21:43:55,139] User_01_Register - Step 05 - Input to Password123456
+[INFO ] [2021-12-13 21:43:55,298] User_01_Register - Step 06 - Input to Confirm Password123456
+[INFO ] [2021-12-13 21:43:55,460] User_01_Register - Step 07- Click to Register Button
+[INFO ] [2021-12-13 21:43:57,073] User_01_Register - Step 08- Verify Register Success
+[INFO ] [2021-12-13 21:43:57,180] User_01_Register - Step 09- Click to LogOut Link
+[INFO ] [2021-12-13 21:43:58,746] User_01_Login - Step 01 - Login Link
+[INFO ] [2021-12-13 21:44:00,060] User_01_Login - Step 02 - Click to Login Link
+[INFO ] [2021-12-13 21:44:00,060] User_01_Login - Step 03 - Input to Email
+[INFO ] [2021-12-13 21:44:00,244] User_01_Login - Step 04 - Click to Password
+[INFO ] [2021-12-13 21:44:00,383] User_01_Login - Step 05 - Click to Login Link
+[INFO ] [2021-12-14 09:43:23,748] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-14 09:43:35,249] User_01_Register - Step 01 - Click to Register Link
+[INFO ] [2021-12-14 09:43:36,927] User_01_Register - Step 02 - Input to Firstname textboxAuto
+[INFO ] [2021-12-14 09:43:37,088] User_01_Register - Step 03 - Input to Lastname textboxMation
+[INFO ] [2021-12-14 09:43:37,195] User_01_Register - Step 04 - Input to Emailafc4310@mail.vn
+[INFO ] [2021-12-14 09:43:37,283] User_01_Register - Step 05 - Input to Password123456
+[INFO ] [2021-12-14 09:43:37,395] User_01_Register - Step 06 - Input to Confirm Password123456
+[INFO ] [2021-12-14 09:43:37,533] User_01_Register - Step 07- Click to Register Button
+[INFO ] [2021-12-14 09:43:39,948] User_01_Register - Step 08- Verify Register Success
+[INFO ] [2021-12-14 09:43:40,048] User_01_Register - Step 09- Click to LogOut Link
+[INFO ] [2021-12-14 09:43:42,650] User_01_Login - Step 01 - Login Link
+[INFO ] [2021-12-14 09:43:43,863] User_01_Login - Step 02 - Click to Login Link
+[INFO ] [2021-12-14 09:43:43,863] User_01_Login - Step 03 - Input to Email
+[INFO ] [2021-12-14 09:43:43,957] User_01_Login - Step 04 - Click to Password
+[INFO ] [2021-12-14 09:43:44,049] User_01_Login - Step 05 - Click to Login Link
+[INFO ] [2021-12-14 14:47:09,163] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-14 14:47:17,173] User_01_Register - Step 01 - Click to Register Link
+[INFO ] [2021-12-14 14:47:18,968] User_01_Register - Step 02 - Input to Firstname textboxAuto
+[INFO ] [2021-12-14 14:47:19,071] User_01_Register - Step 03 - Input to Lastname textboxMation
+[INFO ] [2021-12-14 14:47:19,170] User_01_Register - Step 04 - Input to Emailafc6551@mail.vn
+[INFO ] [2021-12-14 14:47:19,263] User_01_Register - Step 05 - Input to Password123456
+[INFO ] [2021-12-14 14:47:19,374] User_01_Register - Step 06 - Input to Confirm Password123456
+[INFO ] [2021-12-14 14:47:19,493] User_01_Register - Step 07- Click to Register Button
+[INFO ] [2021-12-14 14:47:21,888] User_01_Register - Step 08- Verify Register Success
+[INFO ] [2021-12-14 14:47:21,957] User_01_Login - Step 01 - Login Link
+[INFO ] [2021-12-14 14:48:34,137] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-14 14:48:40,086] User_01_Register - Step 01 - Click to Register Link
+[INFO ] [2021-12-14 14:48:41,734] User_01_Register - Step 02 - Input to Firstname textboxAuto
+[INFO ] [2021-12-14 14:48:41,850] User_01_Register - Step 03 - Input to Lastname textboxMation
+[INFO ] [2021-12-14 14:48:41,983] User_01_Register - Step 04 - Input to Emailafc8796@mail.vn
+[INFO ] [2021-12-14 14:48:42,082] User_01_Register - Step 05 - Input to Password123456
+[INFO ] [2021-12-14 14:48:42,190] User_01_Register - Step 06 - Input to Confirm Password123456
+[INFO ] [2021-12-14 14:48:42,282] User_01_Register - Step 07- Click to Register Button
+[INFO ] [2021-12-14 14:48:43,881] User_01_Register - Step 08- Verify Register Success
+[INFO ] [2021-12-14 14:48:43,943]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-14 14:48:43,944] User_01_Register - Step 09- Click to LogOut Link
+[INFO ] [2021-12-14 14:48:44,844] User_01_Login - Step 01 - Login Link
+[INFO ] [2021-12-14 14:48:46,075] User_01_Login - Step 02 - Click to Login Link
+[INFO ] [2021-12-14 14:48:46,076] User_01_Login - Step 03 - Input to Email
+[INFO ] [2021-12-14 14:48:46,186] User_01_Login - Step 04 - Click to Password
+[INFO ] [2021-12-14 14:48:46,283] User_01_Login - Step 05 - Click to Login Link
+[INFO ] [2021-12-14 14:50:48,839] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-14 14:50:59,488] User_01_Register - Step 01 - Click to Register Link
+[INFO ] [2021-12-14 14:51:01,084] User_01_Register - Step 02 - Input to Firstname textboxAuto
+[INFO ] [2021-12-14 14:51:01,188] User_01_Register - Step 03 - Input to Lastname textboxMation
+[INFO ] [2021-12-14 14:51:01,303] User_01_Register - Step 04 - Input to Emailafc4041@mail.vn
+[INFO ] [2021-12-14 14:51:01,426] User_01_Register - Step 05 - Input to Password123456
+[INFO ] [2021-12-14 14:51:01,522] User_01_Register - Step 06 - Input to Confirm Password123456
+[INFO ] [2021-12-14 14:51:01,637] User_01_Register - Step 07- Click to Register Button
+[INFO ] [2021-12-14 14:51:03,961] User_01_Register - Step 08- Verify Register Success
+[INFO ] [2021-12-14 14:51:04,025]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-14 14:51:04,028] User_01_Register - Step 09- Click to LogOut Link
+[INFO ] [2021-12-14 14:51:05,164] User_01_Login - Step 01 - Login Link
+[INFO ] [2021-12-14 14:51:05,817] User_01_Login - Step 02 - Click to Login Link
+[INFO ] [2021-12-14 14:51:05,817] User_01_Login - Step 03 - Input to Email
+[INFO ] [2021-12-14 14:51:05,926] User_01_Login - Step 04 - Click to Password
+[INFO ] [2021-12-14 14:51:06,052] User_01_Login - Step 05 - Click to Login Link
+[INFO ] [2021-12-15 09:29:09,946] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-15 09:30:01,698] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-15 09:30:08,397] Post-Condition: Close browser
+[INFO ] [2021-12-15 09:30:08,397] OS name = windows 10
+[INFO ] [2021-12-15 09:30:08,398] Driver instance name = windows 10
+[INFO ] [2021-12-15 14:21:26,216] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-15 14:21:37,848] User_01_Login - Step 01 - Login Link
+[INFO ] [2021-12-15 14:21:39,322] User_01_Login - Step 01 - Set login page cookies
+[INFO ] [2021-12-15 14:21:39,346] Post-Condition: Close browser
+[INFO ] [2021-12-15 14:21:39,346] OS name = windows 10
+[INFO ] [2021-12-15 14:21:39,346] Driver instance name = windows 10
+[INFO ] [2021-12-15 14:22:23,500] Post-Condition: Close browser
+[INFO ] [2021-12-15 14:22:23,501] OS name = windows 10
+[INFO ] [2021-12-15 14:22:23,501] 
+[INFO ] [2021-12-15 14:25:19,230] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-15 14:25:24,513] User_01_Login - Step 01 - Login Link
+[INFO ] [2021-12-15 14:25:25,850] User_01_Login - Step 01 - Set login page cookies
+[INFO ] [2021-12-15 14:25:31,962] User_01_Login - Step 01 -Verify home page
+[INFO ] [2021-12-15 14:25:32,051] Post-Condition: Close browser
+[INFO ] [2021-12-15 14:25:32,051] OS name = windows 10
+[INFO ] [2021-12-15 14:25:32,052] Driver instance name = windows 10
+[INFO ] [2021-12-15 14:28:28,458] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-15 14:28:34,670] User_01_Login - Step 01 - Login Link
+[INFO ] [2021-12-15 14:28:36,114] User_01_Login - Step 01 - Set login page cookies
+[INFO ] [2021-12-15 14:28:42,901] User_01_Login - Step 01 -Verify home page
+[INFO ] [2021-12-15 14:28:42,990] Post-Condition: Close browser
+[INFO ] [2021-12-15 14:28:42,990] OS name = windows 10
+[INFO ] [2021-12-15 14:28:42,990] Driver instance name = windows 10
+[INFO ] [2021-12-15 14:32:06,854] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-15 14:32:12,526] User_01_Login - Step 01 - Login Link
+[INFO ] [2021-12-15 14:32:13,988] User_01_Login - Step 01 - Set login page cookies
+[INFO ] [2021-12-15 14:32:25,917] User_01_Login - Step 01 -Verify home page
+[INFO ] [2021-12-15 14:32:26,010] Post-Condition: Close browser
+[INFO ] [2021-12-15 14:32:26,010] OS name = windows 10
+[INFO ] [2021-12-15 14:32:26,010] Driver instance name = windows 10

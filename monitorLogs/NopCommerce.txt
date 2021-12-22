@@ -1,0 +1,7 @@
+[INFO ] [2021-12-15 14:32:06,854] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2021-12-15 14:32:12,526] User_01_Login - Step 01 - Login Link
+[INFO ] [2021-12-15 14:32:13,988] User_01_Login - Step 01 - Set login page cookies
+[INFO ] [2021-12-15 14:32:25,917] User_01_Login - Step 01 -Verify home page
+[INFO ] [2021-12-15 14:32:26,010] Post-Condition: Close browser
+[INFO ] [2021-12-15 14:32:26,010] OS name = windows 10
+[INFO ] [2021-12-15 14:32:26,010] Driver instance name = windows 10
