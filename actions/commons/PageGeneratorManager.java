@@ -11,6 +11,8 @@ import pageObject.nopcommerce.user.UserMyAccountPageObject;
 import pageObject.nopcommerce.user.UserMyProductReviewPageObject;
 import pageObject.nopcommerce.user.UserRegisterPageObject;
 import pageObject.nopcommerce.user.UserRewardPointPageObject;
+import pageObject.nopcommerce.user.UserShoppingCartPageObject;
+import pageObject.nopcommerce.user.UserWishListPageObject;
 
 
 public class PageGeneratorManager {
@@ -40,5 +42,11 @@ public class PageGeneratorManager {
 	}
 	public static AdminDashBoardPageObject getAdminDashboardPageObject(WebDriver driver) {
 		return new AdminDashBoardPageObject(driver);
+	}
+	public static UserWishListPageObject getUserWishListPage(WebDriver driver) {
+		return new UserWishListPageObject(driver);
+	}
+	public static UserShoppingCartPageObject getShoppingCartPage(WebDriver driver) {
+		return new UserShoppingCartPageObject(driver);
 	}
 }

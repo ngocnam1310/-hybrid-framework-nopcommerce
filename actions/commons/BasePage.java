@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
@@ -21,6 +23,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import pageObject.nopcommerce.admin.AdminLoginPageObject;
 import pageObject.nopcommerce.user.UserAddressPageObject;
 import pageObject.nopcommerce.user.UserHomePageObject;
+import pageObject.nopcommerce.user.UserMyAccountPageObject;
 import pageObject.nopcommerce.user.UserMyProductReviewPageObject;
 import pageObject.nopcommerce.user.UserRewardPointPageObject;
 import pageUIs.nopcommerce.admin.AdminBasePageUI;
@@ -31,6 +34,11 @@ import pageUIs.nopcommerce.user.BasePageUI;
  *
  */
 public class BasePage {
+	protected final Log log;
+	public BasePage() {
+		log = LogFactory.getLog(getClass());
+	}
+
 	public static BasePage getBasePageObject() {
 		return new BasePage();
 	}
@@ -450,8 +458,12 @@ public class BasePage {
 	}
 
 	public void waitForElementVisible(WebDriver driver, String locatorType) {
-		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
-		explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByLocator(locatorType)));
+		try {
+			WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
+			explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByLocator(locatorType)));
+		} catch (Exception e) {
+			log.debug("Wait for element visible with error: " +e.getMessage());
+		}
 	}
 
 	public void waitForElementVisible(WebDriver driver, String locatorType, String... dynamicValues) {
@@ -533,7 +545,23 @@ public class BasePage {
 		clickToElement(driver, BasePageUI.LOGOUT_LINK_ADMIN);
 		return PageGeneratorManager.getAdminLoginPageObject(driver);
 	}
+	public BasePage openPageOnHeadrByNamePage(WebDriver driver, String pageName) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_HEADER_LINK_BY_NAME, pageName);
+		clickToElement(driver, BasePageUI.DYNAMIC_HEADER_LINK_BY_NAME, pageName);
+		switch (pageName) {
+		case "My account":
+			return PageGeneratorManager.getUserMyAccountPage(driver);
+		case "Log out":
+			return PageGeneratorManager.getUserLoginPage(driver);
+		case "Wishlist":
+			return PageGeneratorManager.getUserWishListPage(driver);
+		case "Shopping cart":
+			return PageGeneratorManager.getShoppingCartPage(driver);
 
+		default:
+			throw new RuntimeException("Invalid PageName at My Header");
+		}
+	}
 	public BasePage openPageAtMyAccountByName(WebDriver driver, String pageName) {
 		waitForElementVisible(driver, BasePageUI.DYNAMIC_PAGE_AT_MY_ACCOUNT_AREA, pageName);
 		clickToElement(driver, BasePageUI.DYNAMIC_PAGE_AT_MY_ACCOUNT_AREA, pageName);
@@ -583,7 +611,7 @@ public class BasePage {
 		return isElementDisplayed(driver, AdminBasePageUI.NO_DATA_MESSAGE_BY_NAME_TABLE,tableName);
 	}
 	
-	public void inptoTextBoxByID(WebDriver driver,String textBoxID, String value) {
+	public void inputToTextBoxByID(WebDriver driver,String textBoxID, String value) {
 		waitForElementVisible(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID,textBoxID);
 		sendKeyToElement(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, value, textBoxID);	
 	}

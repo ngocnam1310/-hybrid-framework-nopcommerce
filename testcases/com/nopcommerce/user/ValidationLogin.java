@@ -5,12 +5,10 @@ import commons.BaseTest;
 import commons.PageGeneratorManager;
 import pageObject.nopcommerce.user.UserHomePageObject;
 import pageObject.nopcommerce.user.UserLoginPageObject;
-import pageObject.nopcommerce.user.UserMyAccountPageObject;
 import pageObject.nopcommerce.user.UserRegisterPageObject;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
 public class ValidationLogin extends BaseTest{
@@ -61,7 +59,7 @@ public class ValidationLogin extends BaseTest{
 		loginPage = homePage.clickToLoginLink();
 		
 		log.info("User_01_Login with empty value");
-		loginPage.inptoTextBoxByID(driver,"Email","");
+		loginPage.inputToTextBoxByID(driver,"Email","");
 		loginPage.clickToLoginButton();
 		
 		log.info("User_01_Login Verify error message");
@@ -70,7 +68,7 @@ public class ValidationLogin extends BaseTest{
 	@Test
 	public void User_02_Login_With_Invalid_Email() {
 		log.info("User_01_Login with empty value");
-		loginPage.inptoTextBoxByID(driver, "Email", "123123");
+		loginPage.inputToTextBoxByID(driver, "Email", "123123");
 		loginPage.clickToLoginButton();
 		
 		log.info("User_01_Login Verify error message");
@@ -79,7 +77,7 @@ public class ValidationLogin extends BaseTest{
 	@Test
 	public void User_03_Login_With_Email_NotExist() {
 		log.info("User_01_Login with empty value");
-		loginPage.inptoTextBoxByID(driver, "Email", "automation@mail.com");
+		loginPage.inputToTextBoxByID(driver, "Email", "automation@mail.com");
 		loginPage.clickToLoginButton();
 		
 		log.info("User_01_Login Verify error message");
@@ -89,8 +87,8 @@ public class ValidationLogin extends BaseTest{
 	@Test
 	public void User_04_Login_With_Email_Exist_But_Password_Invalid() {
 		log.info("User_01_Login with empty value");
-		loginPage.inptoTextBoxByID(driver, "Email",existingEmail);
-		loginPage.inptoTextBoxByID(driver, "Password", "123321");
+		loginPage.inputToTextBoxByID(driver, "Email",existingEmail);
+		loginPage.inputToTextBoxByID(driver, "Password", "123321");
 		loginPage.clickToLoginButton();
 		
 		log.info("User_01_Login Verify error message");
@@ -100,8 +98,8 @@ public class ValidationLogin extends BaseTest{
 	@Test
 	public void User_05_Login_With_Email_Exist_But_Password_isEmpty() {
 		log.info("User_01_Login with empty value");
-		loginPage.inptoTextBoxByID(driver, "Email",existingEmail);
-		loginPage.inptoTextBoxByID(driver, "Password", " ");
+		loginPage.inputToTextBoxByID(driver, "Email",existingEmail);
+		loginPage.inputToTextBoxByID(driver, "Password", " ");
 		loginPage.clickToLoginButton();
 		
 		log.info("User_01_Login Verify error message");
@@ -137,6 +135,5 @@ public class ValidationLogin extends BaseTest{
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
 	private UserLoginPageObject loginPage;
-	private UserMyAccountPageObject myAccount;
 
 }
