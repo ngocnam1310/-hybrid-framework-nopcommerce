@@ -32,5 +32,14 @@
 	<classpathentry kind="lib" path="libExtentV2/mongodb-driver-3.0.4.jar"/>
 	<classpathentry kind="lib" path="libExtentV2/mongodb-driver-core-3.0.4.jar"/>
 	<classpathentry kind="lib" path="libExtentV2/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="ApachePoi/poi-5.1.0.jar"/>
+	<classpathentry kind="lib" path="ApachePoi/poi-examples-5.1.0.jar"/>
+	<classpathentry kind="lib" path="ApachePoi/poi-excelant-5.1.0.jar"/>
+	<classpathentry kind="lib" path="ApachePoi/poi-javadoc-5.1.0.jar"/>
+	<classpathentry kind="lib" path="ApachePoi/poi-ooxml-5.1.0.jar"/>
+	<classpathentry kind="lib" path="ApachePoi/poi-ooxml-full-5.1.0.jar"/>
+	<classpathentry kind="lib" path="ApachePoi/poi-ooxml-lite-5.1.0.jar"/>
+	<classpathentry kind="lib" path="ApachePoi/poi-scratchpad-5.1.0.jar"/>
+	<classpathentry kind="lib" path="ApachePoi/lombok.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import pageObject.nopcommerce.admin.AdminDashBoardPageObject;
 import pageObject.nopcommerce.admin.AdminLoginPageObject;
 import pageObject.nopcommerce.user.UserAddressPageObject;
+import pageObject.nopcommerce.user.UserChangePasswordPageObject;
 import pageObject.nopcommerce.user.UserHomePageObject;
 import pageObject.nopcommerce.user.UserLoginPageObject;
 import pageObject.nopcommerce.user.UserMyAccountPageObject;
@@ -36,6 +37,9 @@ public class PageGeneratorManager {
 	}
 	public static UserRewardPointPageObject getRewardPointPage(WebDriver driver) {
 		return new UserRewardPointPageObject(driver);
+	}
+	public static UserChangePasswordPageObject getChangePasswordPage(WebDriver driver) {
+		return new UserChangePasswordPageObject(driver);
 	}
 	public static AdminLoginPageObject getAdminLoginPageObject(WebDriver driver) {
 		return new AdminLoginPageObject(driver);

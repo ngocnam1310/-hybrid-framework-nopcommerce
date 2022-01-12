@@ -572,15 +572,11 @@ public class BasePage {
 			return PageGeneratorManager.getUserMyProductReviewPage(driver);
 		case "Reward points":
 			return PageGeneratorManager.getRewardPointPage(driver);
-
+		case "Change password":
+			return PageGeneratorManager.getChangePasswordPage(driver);	
 		default:
 			throw new RuntimeException("Invalid PageName at My Account area.");
 		}
-	}
-
-	public void openPageAtMyAccountByPageName(WebDriver driver, String pageName) {
-		waitForElementVisible(driver, BasePageUI.DYNAMIC_PAGE_AT_MY_ACCOUNT_AREA, pageName);
-		clickToElement(driver, BasePageUI.DYNAMIC_PAGE_AT_MY_ACCOUNT_AREA, pageName);
 	}
 
 	// admin_ nopcommerce

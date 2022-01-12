@@ -8,7 +8,7 @@
   <test name="Run on firefox">
   <parameter name ="browser" value ="firefox"/>
     <classes>
-      <class name="com.nopcommerce.user.ValidationLogin"/>
+      <class name="com.nopcommerce.user.ValidationLogin2"/>
     </classes>
   </test> 
 <!--   
