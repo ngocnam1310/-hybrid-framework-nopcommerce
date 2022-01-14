@@ -346,3 +346,127 @@ Driver info: driver.version: RemoteWebDriver
 [INFO ] [2021-12-22 15:12:52,060] Post-Condition: Close browser
 [INFO ] [2021-12-22 15:12:52,061] OS name = windows 10
 [INFO ] [2021-12-22 15:12:52,061] Driver instance name = windows 10
+[INFO ] [2022-01-13 08:49:37,389] Post-Condition: Close browser
+[INFO ] [2022-01-13 08:49:37,390] OS name = windows 10
+[INFO ] [2022-01-13 08:49:37,390] 
+[INFO ] [2022-01-13 08:50:38,074] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2022-01-13 08:50:48,130] User_01_Login- Login Link
+[INFO ] [2022-01-13 08:50:49,523] User_01_Login - Step 03 - Input to Email
+[INFO ] [2022-01-13 08:50:49,743] Post-Condition: Close browser
+[INFO ] [2022-01-13 08:50:49,743] OS name = windows 10
+[INFO ] [2022-01-13 08:50:49,743] Driver instance name = windows 10
+[INFO ] [2022-01-13 08:54:59,599] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2022-01-13 08:55:06,148] User_01_Login- Login Link
+[INFO ] [2022-01-13 08:55:07,511] User_01_Login - Step 03 - Input to Email
+[INFO ] [2022-01-13 08:55:07,696] Post-Condition: Close browser
+[INFO ] [2022-01-13 08:55:07,697] OS name = windows 10
+[INFO ] [2022-01-13 08:55:07,697] Driver instance name = windows 10
+[INFO ] [2022-01-13 08:56:11,172] Post-Condition: Close browser
+[INFO ] [2022-01-13 08:56:11,173] OS name = windows 10
+[INFO ] [2022-01-13 08:56:11,173] 
+[INFO ] [2022-01-13 08:57:29,949] Post-Condition: Close browser
+[INFO ] [2022-01-13 08:57:29,950] OS name = windows 10
+[INFO ] [2022-01-13 08:57:29,950] 
+[INFO ] [2022-01-13 08:57:59,362] Post-Condition: Close browser
+[INFO ] [2022-01-13 08:57:59,362] OS name = windows 10
+[INFO ] [2022-01-13 08:57:59,362] 
+[INFO ] [2022-01-13 08:59:15,068] Post-Condition: Close browser
+[INFO ] [2022-01-13 08:59:15,069] OS name = windows 10
+[INFO ] [2022-01-13 08:59:15,069] 
+[INFO ] [2022-01-13 09:29:13,056] Post-Condition: Close browser
+[INFO ] [2022-01-13 09:29:13,057] OS name = windows 10
+[INFO ] [2022-01-13 09:29:13,057] 
+[INFO ] [2022-01-13 09:30:38,070] Post-Condition: Close browser
+[INFO ] [2022-01-13 09:30:38,071] OS name = windows 10
+[INFO ] [2022-01-13 09:30:38,071] 
+[INFO ] [2022-01-13 09:32:33,963] Post-Condition: Close browser
+[INFO ] [2022-01-13 09:32:33,964] OS name = windows 10
+[INFO ] [2022-01-13 09:32:33,964] 
+[INFO ] [2022-01-13 09:34:51,081] Post-Condition: Close browser
+[INFO ] [2022-01-13 09:34:51,082] OS name = windows 10
+[INFO ] [2022-01-13 09:34:51,082] 
+[INFO ] [2022-01-13 09:37:45,667] Post-Condition: Close browser
+[INFO ] [2022-01-13 09:37:45,667] OS name = windows 10
+[INFO ] [2022-01-13 09:37:45,667] 
+[INFO ] [2022-01-13 09:41:08,325] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2022-01-13 09:41:17,020] User_01_Login- Login Link
+[INFO ] [2022-01-13 09:41:18,446] User_01_Login - Step 03 - Input to Email
+[INFO ] [2022-01-13 09:41:18,672] Post-Condition: Close browser
+[INFO ] [2022-01-13 09:41:18,672] OS name = windows 10
+[INFO ] [2022-01-13 09:41:18,672] Driver instance name = windows 10
+[INFO ] [2022-01-13 09:42:08,291] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2022-01-13 09:42:15,094] Post-Condition: Close browser
+[INFO ] [2022-01-13 09:42:15,094] OS name = windows 10
+[INFO ] [2022-01-13 09:42:15,094] Driver instance name = windows 10
+[INFO ] [2022-01-13 09:43:25,587] Post-Condition: Close browser
+[INFO ] [2022-01-13 09:43:25,588] OS name = windows 10
+[INFO ] [2022-01-13 09:43:25,588] 
+[INFO ] [2022-01-13 09:45:12,158] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2022-01-13 09:45:18,757] User_01_Login- Login Link
+[INFO ] [2022-01-13 09:45:20,129] User_01_Login - Step 03 - Input to Email
+[INFO ] [2022-01-13 09:45:20,251] User_01_Login - Step 04 - Click to Password
+[INFO ] [2022-01-13 09:45:20,341] User_01_Login - Step 05 - Click to Login Link
+[INFO ] [2022-01-13 09:46:22,200]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-01-13 09:46:22,375] Post-Condition: Close browser
+[INFO ] [2022-01-13 09:46:22,375] OS name = windows 10
+[INFO ] [2022-01-13 09:46:22,375] Driver instance name = windows 10
+[INFO ] [2022-01-13 10:01:53,104] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2022-01-13 10:02:03,646] Post-Condition: Close browser
+[INFO ] [2022-01-13 10:02:03,647] OS name = windows 10
+[INFO ] [2022-01-13 10:02:03,647] Driver instance name = windows 10
+[INFO ] [2022-01-13 10:02:10,961] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2022-01-13 10:02:19,671] Post-Condition: Close browser
+[INFO ] [2022-01-13 10:02:19,671] OS name = windows 10
+[INFO ] [2022-01-13 10:02:19,672] Driver instance name = windows 10
+[INFO ] [2022-01-13 10:25:44,354] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2022-01-13 10:25:54,092] Post-Condition: Close browser
+[INFO ] [2022-01-13 10:25:54,092] OS name = windows 10
+[INFO ] [2022-01-13 10:25:54,093] Driver instance name = windows 10
+[INFO ] [2022-01-13 10:27:25,029] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2022-01-13 10:27:33,281] Post-Condition: Close browser
+[INFO ] [2022-01-13 10:27:33,281] OS name = windows 10
+[INFO ] [2022-01-13 10:27:33,281] Driver instance name = windows 10
+[INFO ] [2022-01-13 10:29:17,824] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2022-01-13 10:29:25,779] Post-Condition: Close browser
+[INFO ] [2022-01-13 10:29:25,779] OS name = windows 10
+[INFO ] [2022-01-13 10:29:25,779] Driver instance name = windows 10
+[INFO ] [2022-01-13 10:29:48,707] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2022-01-13 10:29:57,058] Post-Condition: Close browser
+[INFO ] [2022-01-13 10:29:57,058] OS name = windows 10
+[INFO ] [2022-01-13 10:29:57,059] Driver instance name = windows 10
+[INFO ] [2022-01-13 10:41:13,860] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2022-01-13 10:41:23,156] Post-Condition: Close browser
+[INFO ] [2022-01-13 10:41:23,156] OS name = windows 10
+[INFO ] [2022-01-13 10:41:23,156] Driver instance name = windows 10
+[INFO ] [2022-01-13 10:43:17,618] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2022-01-13 10:43:25,705] Post-Condition: Close browser
+[INFO ] [2022-01-13 10:43:25,705] OS name = windows 10
+[INFO ] [2022-01-13 10:43:25,706] Driver instance name = windows 10
+[INFO ] [2022-01-13 10:43:49,403] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2022-01-13 10:43:56,399] Post-Condition: Close browser
+[INFO ] [2022-01-13 10:43:56,400] OS name = windows 10
+[INFO ] [2022-01-13 10:43:56,400] Driver instance name = windows 10
+[INFO ] [2022-01-13 10:44:47,312] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2022-01-13 10:45:01,089] Post-Condition: Close browser
+[INFO ] [2022-01-13 10:45:01,089] OS name = windows 10
+[INFO ] [2022-01-13 10:45:01,090] Driver instance name = windows 10
+[INFO ] [2022-01-13 10:47:31,109] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2022-01-13 10:47:42,269] Post-Condition: Close browser
+[INFO ] [2022-01-13 10:47:42,270] OS name = windows 10
+[INFO ] [2022-01-13 10:47:42,270] Driver instance name = windows 10
+[INFO ] [2022-01-13 10:50:08,501] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2022-01-13 10:50:19,197] Post-Condition: Close browser
+[INFO ] [2022-01-13 10:50:19,197] OS name = windows 10
+[INFO ] [2022-01-13 10:50:19,198] Driver instance name = windows 10
+[INFO ] [2022-01-13 10:51:34,094] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2022-01-13 10:51:44,453] Post-Condition: Close browser
+[INFO ] [2022-01-13 10:51:44,453] OS name = windows 10
+[INFO ] [2022-01-13 10:51:44,453] Driver instance name = windows 10
+[INFO ] [2022-01-13 11:11:56,137] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2022-01-13 11:12:07,495] Post-Condition: Close browser
+[INFO ] [2022-01-13 11:12:07,495] OS name = windows 10
+[INFO ] [2022-01-13 11:12:07,495] Driver instance name = windows 10
+[INFO ] [2022-01-13 11:18:09,363] Pre-condition - Step 01: Open Browserfirefox' and navigate to '
+[INFO ] [2022-01-13 11:18:20,247] Post-Condition: Close browser
+[INFO ] [2022-01-13 11:18:20,247] OS name = windows 10
+[INFO ] [2022-01-13 11:18:20,248] Driver instance name = windows 10

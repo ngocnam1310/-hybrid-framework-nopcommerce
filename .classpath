@@ -41,5 +41,8 @@
 	<classpathentry kind="lib" path="ApachePoi/poi-ooxml-lite-5.1.0.jar"/>
 	<classpathentry kind="lib" path="ApachePoi/poi-scratchpad-5.1.0.jar"/>
 	<classpathentry kind="lib" path="ApachePoi/lombok.jar"/>
+	<classpathentry kind="lib" path="ApachePoi/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="ApachePoi/ooxml-lib/xmlbeans-5.0.2.jar"/>
+	<classpathentry kind="lib" path="ApachePoi/lib/log4j-api-2.14.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

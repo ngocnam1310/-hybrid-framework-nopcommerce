@@ -1,7 +1,6 @@
 package utilities;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
@@ -31,7 +30,7 @@ public class ExeclHelper {
 	        if (Platform.getCurrent().toString().equalsIgnoreCase("MAC")) {
 	            testDataExcelPath = currentDir + "resources/";
 	        } else if (Platform.getCurrent().toString().contains("WIN")) {
-	            testDataExcelPath = currentDir + "resources\\";
+	            testDataExcelPath = currentDir + "\\resources\\";
 	        }
 	       
 	        FileInputStream ExcelFile = new FileInputStream(testDataExcelPath + testDataExcelFileName);
